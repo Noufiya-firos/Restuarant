@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+    object-fit: cover;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+.banner{
+    background-image: url(headimg.webp);
+    background-size: cover;
+    padding: 100px 0;
+}
+.container-fluid h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: bisque;
+}
+.about{
+    /* background-color: rgb(243, 155, 155); */
+    color:black;
+   
+
+}
+.about h3{
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(227, 140, 35);
+
+}
+/* .pic1{
+    margin: 0px 0px; */
+.recipie{
+    margin-top:0px;
+    background-image: url(burger.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position:center center;
+    padding: 100px 0;
+    /* max-height:100%;
+    max-width: 100%; */
+}
+/* .recipie h1{
+    margin-top: 200px;
+} */
+/* .pic{
+    background-size: cover;
+    background-position: center; */
+.blend{
+    background-image: url(slice.jpg);
+    background-size: cover;
+    min-height: 500px;
+    min-width: 100%;
+}
+.blend h2{
+ margin-top:150px;
+}
+/* .image{
+    min-height: 250px;
+} */
+/* #contact{ */
+    /* margin:15px; */
+    /* margin-top:0px;
+    padding: 15px;
+    width: 100%; */
+
+#footer{
+
+    background-color: black;
+    
+}
+
+body{
+    background-color: bisque;
+    object-fit: cover;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+#mynavbar{
+    color: blue;
+}
+.imgfood {
+    margin-top: 20px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.modal-content {
+      background: linear-gradient(to right, #fff0e1, #ffe9f3);
+      border-radius: 10px;
+      border: none;
+    }
+
+    .modal-header {
+      background-color: #ff5722;
+      color: white;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+
+    .form-label {
+      font-weight: bold;
+      color: #5e2129;
+    }
+
+    .form-control, .form-select {
+      border-radius: 8px;
+      border: 1px solid #ffaeae;
+    }
+
+    .btn-success {
+      background-color: #d63384;
+      border: none;
+    }
+
+    .btn-success:hover {
+      background-color: #a61c58;
+    }
+
+    .btn-secondary {
+      border-radius: 6px;
+    }
+
+    .text-link {
+      color: #fff;
+      background-color: #d63384;
+      padding: 12px 24px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .text-link:hover {
+      background-color: #a61c58;
+      color: white;
+    }
+    /* #successMessage {
+      display: none;
+    }
+    :target#successMessage {
+      display: block;
+    } */
+  .imgfood1 {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  object-fit: cover;
+}

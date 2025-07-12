@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="new proj1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+    body {
+        background-color:bisque; /* Replace with your preferred color */
+    }
+</style>
+<!-- Bootstrap 5 JavaScript and dependencies (Popper) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+   <section>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+           <a class="navbar-brand text-decoration-underline" href="javascript:void(0)"style="font-weight:bold; font-size: 28px;font-family:verdana;"><span style="color: crimson;">ROSA</span></a>
+          
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar"
+             aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav ms-auto">
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#Welcome">Welcome</a>
+                    </li> -->
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#welcome">Welcome</a>
+                   </li>
+                     <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#About">About</a>
+                   </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Reservations">Reservations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</section>
+
+    </section>
+    <section id="welcome">
+        <div class="container-fluid p-5 text-white text-center banner">
+            <div class="col-sm-12">
+            <h1>Welcome</h1>
+            <h2>THE ROSA</h2>
+            <p>Ready to be opened</p>
+
+        </div>
+    </div>
+    </section>
+  <section id="About" class="py-5">
+  <div class="container text-dark about">
+    <div class="row align-items-center">
+      <!-- Text Column -->
+      <div class="col-sm-12 col-md-6 mb-4 mb-md-0">
+        <h1 style="color: rgb(181, 70, 33);">Discover</h1>
+        <h2 class="mb-3">OUR STORY</h2>
+        <p>
+          A restaurant is a fantasy—a kind of living fantasy in which diners are the most important members
+          of the cast. I judge a restaurant by the bread and by the coffee. The most essential part of my
+          day is a proper dinner. A restaurant should remove you from the mundane burdens of everyday life
+          and transport you to another world. The only thing I like better than talking about food is eating.
+        </p>
+        <p class="text-warning text-center mt-4">
+          <u><b>ABOUT US</b></u>
+        </p>
+      </div>
+
+      <!-- Image Column -->
+      <div class="col-sm-12 col-md-6">
+        <img src="cherry1.jpg" alt="Delicious Dish" class="img-fluid rounded shadow" />
+      </div>
+    </div>
+  </div>
+</section>
+
+</section>
+
+        <section class="recipie">
+            <div class="container-fluid p-5 mt-3 text-white text-center">
+                <div class="col-sm-12">
+                <h1>Faithful</h1>
+                <h2>RECIPIES</h2>
+            </div>
+        </div>
+        </section>
+        <!-- 4 images -->
+        <section id="Menu" class="col-sm-12 py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col">
+                                <img src="restuarant5.jpg" class="w-100" height="260">
+                            </div>
+                            <div class="col">
+                                <img src="restaurant1.jpg" alt="" class="w-100" height="280">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <img src="restaurant3.jpg" class="w-100" height="260">
+                            </div>
+                            <div class="col">
+                                <img src="restuarant4.webp" alt=""class="w-100" height="260">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <h1 style="color: chocolate;" class="text-warning mt-3">Discover</h1>
+                        <h2>MENU</h2>
+                        <p>A list of food and beverage options available at a restaurant, typically including
+                            descriptions, prices, and sometimes dietary information, serving as a guide for customers to
+                            choose their meals. a list of food and beverage options available at a restaurant, typically
+                            including descriptions, prices, and sometimes dietary information, serving as a guide for
+                            customers to choose their meals.The only thing I like better than talking about food is eating </p>
+
+                        <a class="text-center" href="#Menu">View the full menu</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid text-center blend py-3">
+                <div class="col-sm-12">
+                <h2 class="text-warning">The perfect</h2>
+                <h3 class="text-white">BLEND</h3>
+            </div>
+        </div>
+        </section>
+       <section id="Reservations" class="py-5">
+  <style>
+    #successMessage {
+      display: none;
+    }
+
+    :target#successMessage {
+      display: block;
+    }
+
+    .imgfood1 {
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+  </style>
+
+  <div class="container">
+    <div class="row text-center">
+      <!-- Reservation Text + Button (1 of 3 columns) -->
+      <div class="col-lg-4 col-md-12 mb-4 mt-5">
+        <h2 class="text-warning">Culinary</h2>
+        <h3 class="text-black">DELIGHT</h3>
+        <p>
+          A cooking technique in which ingredients are fried in a small amount of very hot oil while
+          being stirred or tossed in a wok. A meal consisting of various chicken items, like fried
+          chicken pieces, wings, or tenders, served together on a single platter, often with side
+          dishes like fries, coleslaw, or mashed potatoes.
+        </p>
+        <a href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#bookingModal">
+          Make a Reservation
+        </a>
+      </div>
+
+      <!-- First Image -->
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <img src="delight1.jpg" alt="Delight 1" class="img-fluid imgfood1">
+      </div>
+
+      <!-- Second Image -->
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <img src="delight4.jpg" alt="Delight 4" class="img-fluid imgfood1">
+      </div>
+    </div>
+  </div>
+
+  <!-- Booking Modal -->
+  <div class="modal fade" id="bookingModal" tabindex="-1" aria-labelledby="bookingModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <form action="#successMessage" method="POST">
+          <div class="modal-header bg-danger text-white">
+            <h5 class="modal-title">Book a Table</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" name="name" class="form-control" required />
+              </div>
+              <div class="col-md-6">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" name="email" class="form-control" required />
+              </div>
+              <div class="col-md-6">
+                <label for="phone" class="form-label">Phone</label>
+                <input type="tel" name="phone" class="form-control" required />
+              </div>
+              <div class="col-md-3">
+                <label for="date" class="form-label">Date</label>
+                <input type="date" name="date" class="form-control" required />
+              </div>
+              <div class="col-md-3">
+                <label for="time" class="form-label">Time</label>
+                <input type="time" name="time" class="form-control" required />
+              </div>
+              <div class="col-md-6">
+                <label for="guests" class="form-label">Number of Guests</label>
+                <select name="guests" class="form-select" required>
+                  <option value="" disabled selected>Select</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5+</option>
+                </select>
+              </div>
+              <div class="col-12">
+                <label for="requests" class="form-label">Special Requests</label>
+                <textarea name="requests" class="form-control" rows="3"></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-success">Confirm Reservation</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </form>
+        <script>
+  document.getElementById('bookingModal').addEventListener('submit', function(e) {
+    e.preventDefault(); // prevent real submission
+
+    // Show success message
+    const msg = document.getElementById('successMessage');
+    msg.style.display = 'block';
+
+    // Reset the form
+    this.reset();
+
+    // Hide after 5 seconds
+    setTimeout(() => {
+      msg.style.display = 'none';
+    }, 5000);
+  });
+</script>
+      </div>
+    </div>
+  </div>
+
+  <!-- ✅ Booking Success Message -->
+  <div id="successMessage" class="container text-center mt-4">
+    <div class="alert alert-success">
+      <h4>✅ Booking Successful!</h4>
+      <p>Thank you for your reservation. We look forward to serving you!</p>
+    </div>
+  </div>
+<!-- <meta http-equiv="refresh" content="5;url=reservations.html"> -->
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</section>
+</body>
+</html>
+
+        <section id="contact">
+            <div class="container-fluid bg-dark text-center text-white py-3 mt-1">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2>Location</h2>
+                        <p>Address: 23 Main Street, TNagar,Chennai</p>
+                        <p>Email: rosa@yourwebsite.com</p>
+                        <p>Phone: 4561247890</p>
+                        <p>Hours:9.00 am to 10.00pm</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="footer" class="text-center text-white py-3">
+            <p>Copyright 2025 @ ROSA RESTUARANT. All rights reserved.</p>
+        </section>
+</body>
+
+</html>
